@@ -1,0 +1,15 @@
+<suite name="Sauce MultiBrowser">
+    <test name="Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.DeviantArtSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.DeviantArtSearchTest"/>
+        </classes>
+    </test>
+</suite>
